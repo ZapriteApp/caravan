@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/ZapriteApp/caravan/compare/caravan-v0.7.0...caravan-v0.8.0) (2023-10-28)
+
+
+### Features
+
+* add support for wallet uuid in configs ([#297](https://github.com/ZapriteApp/caravan/issues/297)) ([6675db4](https://github.com/ZapriteApp/caravan/commit/6675db41bb14331c2e6de7d377bb8003ee824c28))
+* **hermit:** hermit PSBT signing for pre-product key recovery ([#308](https://github.com/ZapriteApp/caravan/issues/308)) ([04ca0ce](https://github.com/ZapriteApp/caravan/commit/04ca0ce3ffa2589a00104ecd18cf11768212f470))
+
+
+### Bug Fixes
+
+* addressType conflict check not applicable for text xpubs ([185fc01](https://github.com/ZapriteApp/caravan/commit/185fc01bcd6c02301fb787229ffcc8f0c4c6cd45))
+* bad import ([#299](https://github.com/ZapriteApp/caravan/issues/299)) ([e646ebb](https://github.com/ZapriteApp/caravan/commit/e646ebb0b26f2bf5318a19829c1bbf9cb7c8327d))
+* base ([944e940](https://github.com/ZapriteApp/caravan/commit/944e940f68ba7cadcd1829ac0aac6692f143f53d))
+* **build:** bring back hash routing ([ed83bf4](https://github.com/ZapriteApp/caravan/commit/ed83bf4b6765294180ea96b11898cb1a42adfc42))
+* **deps:** bump @babel/traverse from 7.21.3 to 7.23.2 ([#344](https://github.com/ZapriteApp/caravan/issues/344)) ([5f231e0](https://github.com/ZapriteApp/caravan/commit/5f231e03042006ecc1f72043f42bb6c7266dbecd))
+* do not attempt to mask ([8f39a82](https://github.com/ZapriteApp/caravan/commit/8f39a8222b35b13219c348e136cd545d32d615e1))
+* empty commit ([b8ae633](https://github.com/ZapriteApp/caravan/commit/b8ae633dba6448d3602ea39d5b7646b94727c759))
+* **scriptexplorer:** change the error message for spending from new wallet ([1923dad](https://github.com/ZapriteApp/caravan/commit/1923dad0d5fdc61fe88d729d6e850cee8a22e0f1)), closes [#172](https://github.com/ZapriteApp/caravan/issues/172)
+* **scriptexplorer:** show error message trown in fethUTXOs ([158fb61](https://github.com/ZapriteApp/caravan/commit/158fb6154856909f4de77a49eaeac24cbd4a42d2)), closes [#172](https://github.com/ZapriteApp/caravan/issues/172)
+* **scriptexplorer:** when no error is trown check for 0 balance ([cb96364](https://github.com/ZapriteApp/caravan/commit/cb96364922f61e922be30b67fc39eda2fd233dce))
+* **sign:** pass wallet uuid for signing ([a748d97](https://github.com/ZapriteApp/caravan/commit/a748d97d3bfe796487270ca7a41144b629df17a7))
+* **wallet:** add delay to address and utxo calls ([d9774c1](https://github.com/ZapriteApp/caravan/commit/d9774c1c7e28021a48efa30666c6ceb9e75cd1da)), closes [#317](https://github.com/ZapriteApp/caravan/issues/317)
+
 ## [0.7.0](https://github.com/unchained-capital/caravan/compare/caravan-v0.6.3...caravan-v0.7.0) (2023-10-23)
 
 
